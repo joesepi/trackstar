@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="trkstr">
+<head>
+    <meta charset="utf-8">
+    <title>trackstar</title>
+
+</head>
+<body>
+
+    <h1>Trackstar!</h1>
+<main role="main" id="main"><div ng-controller="MyController">
+  <audio media-player="audio1" data-playlist="playlist1">
+    <source src="http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg" type="audio/ogg">
+  </audio>
+  <span ng-show="audio1.playing">Player status: Playing</span>
+  <span ng-show="!audio1.playing">Player status: Paused</span>
+</div>
+        <!-- player goes here -->
+    </main>
+<script src="/bower_components/angular-media-player/dist/angular-media-player.js" type="text/javascript"></script>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+{
+  "name": "trackstar",
+  "version": "1.0.0",
+  "description": "trackstar =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joesepi/trackstar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joesepi/trackstar/issues"
+  },
+  "homepage": "https://github.com/joesepi/trackstar",
+  "dependencies": {
+    "rupert": "^0.2.5"
+  }
+}

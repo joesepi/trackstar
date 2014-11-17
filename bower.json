@@ -1,0 +1,23 @@
+{
+  "name": "trackstar",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joesepi/trackstar",
+  "authors": [
+    "Joe Sepi <sepi@joesepi.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-media-player": "~0.5.8"
+  }
+}
